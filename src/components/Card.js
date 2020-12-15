@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import DataChart from "../components/Chart";
-import DataChart2 from "../components/Chart2";
+import DataChart2 from "./AreaChart";
 import "./styles/Card.css";
 
 const DataCard = () => {

@@ -12,7 +12,7 @@ function content() {
           <Navigation />
         </Col>
       </Row>
-      <Row id="content-body">
+      <Row id="content-body" className="justify-content-md-center">
         <Col md="auto">
           <DataCard />
         </Col>
