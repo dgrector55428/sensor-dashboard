@@ -12,16 +12,9 @@ const DataCard = () => {
         style={{ marginBottom: "15px" }}
       >
         <Card.Body>
-          {/* <Card.Title>Soil Temperature</Card.Title> */}
           <DataChart2 />
         </Card.Body>
       </Card>
-      {/* <Card className="bg-dark text-white data-card">
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <DataChart />
-        </Card.Body>
-      </Card> */}
     </>
   );
 };

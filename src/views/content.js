@@ -13,7 +13,7 @@ function content() {
         </Col>
       </Row>
       <Row id="content-body">
-        <Col xs={12}>
+        <Col md="auto">
           <DataCard />
         </Col>
       </Row>
