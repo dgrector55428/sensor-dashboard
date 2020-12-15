@@ -1,18 +1,13 @@
 #dashboard-container {
-  background-color: var(--main-background);
+  background-color: var(--secondary-background);
   height: 100vh;
   color: whitesmoke;
 }
 
 .dashboard-section {
-  border: 2px solid;
   height: 100vh;
 }
 
 #sidebar {
-  border-color: maroon;
-}
-
-#content {
-  border-color: orange;
+  border-right: 10px solid var(--main-background);
 }

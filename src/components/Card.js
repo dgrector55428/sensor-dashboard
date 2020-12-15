@@ -1,18 +1,28 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import DataChart from "../components/Chart";
+import DataChart2 from "../components/Chart2";
 import "./styles/Card.css";
 
 const DataCard = () => {
   return (
-    <Card className="data-card">
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </Card.Body>
-    </Card>
+    <>
+      <Card
+        className="bg-dark text-white data-card"
+        style={{ marginBottom: "15px" }}
+      >
+        <Card.Body>
+          {/* <Card.Title>Soil Temperature</Card.Title> */}
+          <DataChart2 />
+        </Card.Body>
+      </Card>
+      {/* <Card className="bg-dark text-white data-card">
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <DataChart />
+        </Card.Body>
+      </Card> */}
+    </>
   );
 };
 

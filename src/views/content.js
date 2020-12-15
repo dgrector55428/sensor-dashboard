@@ -1,11 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Navigation from "../components/Navigation";
 import DataCard from "../components/Card";
+import "./styles/content.css";
 
 function content() {
   return (
-    <Container fluid>
+    <>
       <Row id="content-nav">
         <Col xs={12}>
           <Navigation />
@@ -19,7 +20,7 @@ function content() {
       <Row id="content-footer">
         <Col xs={12}></Col>
       </Row>
-    </Container>
+    </>
   );
 }
 

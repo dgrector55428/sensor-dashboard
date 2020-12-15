@@ -1,3 +1,9 @@
-.data-card {
-  background-color: var(--secondary-background);
+:root {
+  --main-background: #343a40;
+  --secondary-background: #37404a;
+}
+
+.card .data-card {
+  background-color: #343a40;
+  margin: 10px;
 }

@@ -1,0 +1,5 @@
+.apexcharts-tooltip {
+  background: var(--main-background);
+  color: orange;
+  /* display: none; */
+}
